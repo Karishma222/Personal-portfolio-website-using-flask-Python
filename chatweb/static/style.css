@@ -1,0 +1,85 @@
+/* General Page Style */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Section */
+header {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.highlight {
+  color: #00c4ff;
+}
+
+/* Navigation Bar */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00c4ff;
+}
+
+/* Section Style */
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Style */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #00c4ff;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #008bb5;
+}

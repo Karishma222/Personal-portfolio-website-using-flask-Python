@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm <span class="highlight">Karishma k</span></h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h2>Welcome to My Portfolio Website</h2>
+    <p>I’m a Python web developer who loves creating cool projects using Flask and HTML/CSS.</p>
+    <a href="/about" class="btn">Learn more →</a>
+  </section>
+</body>
+</html>
